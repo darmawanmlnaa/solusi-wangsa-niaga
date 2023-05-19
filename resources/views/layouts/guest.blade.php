@@ -31,7 +31,7 @@
             <div class="offcanvas-body">
               <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                 <li class="nav-item">
-                  <a class="nav-link" aria-current="page" href="#home"><i class="bi bi-grid-fill pe-2 pb-2"></i>Beranda</a>
+                  <a class="nav-link" aria-current="page" href="/"><i class="bi bi-grid-fill pe-2 pb-2"></i>Beranda</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#about"><i class="bi bi-clipboard2-fill pe-2 pb-2"></i>Tentang</a>
