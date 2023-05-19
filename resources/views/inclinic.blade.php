@@ -260,7 +260,7 @@
 
                     <div class="card" style="border-radius: 20px; box-shadow: 2px 2px 3px #999;">
 
-                    <form action="" method="POST" id="contactForm" name="contactForm" class="contactForm p-5">
+                    <form action="{{route('send-guest-mail')}}" method="POST" id="contactForm" name="contactForm" class="contactForm p-5">
                       @csrf
                         <div class="row">
                             <div class="col-md-6 pb-4">

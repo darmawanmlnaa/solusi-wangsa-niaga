@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\GuestMailController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -33,3 +34,5 @@ require __DIR__.'/auth.php';
 Route::get('/inclinic', function() {
     return view('inclinic');
 });
+
+Route::post('/send-guest-mail', [GuestMailController::class, 'store'])->name('send-guest-mail');
