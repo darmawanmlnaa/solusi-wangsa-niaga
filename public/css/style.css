@@ -1,0 +1,423 @@
+/* googleFonts */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+/* all size */
+nav {
+    font-family: 'Josefin Sans', sans-serif;
+    background: rgba(0, 0, 0, 0.0);
+}
+
+section {
+    padding-top: 5rem;
+}
+
+.offcanvas {
+    /* background-image: linear-gradient(315deg, #009ffd 0%, #2a2a72 74%); */
+    background-color: #09203f;
+}
+
+.offcanvas-title {
+    color: white;
+}
+
+.nav-color {
+    transition: ease-in-out 0.5s;
+    background-color: #09203f;
+}
+
+.navbar-nav a {
+    font-size: 18px;
+}
+
+/* float button WA */
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:18px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+    font-size:30px;
+	/* box-shadow: 2px 2px 3px #999; */
+    z-index:100;
+}
+
+.float:hover {
+    color: #09203f;
+}
+
+.my-float{
+	margin-top:16px;
+}
+
+/* services */
+.services {
+    font-family: 'Josefin Sans', sans-serif;
+    /* padding-top: 30px; */
+    background-color: #eeeeee;
+    padding-bottom: 5rem;
+}
+
+.services .title {
+    font-size: 50px;
+}
+
+.services .card-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.services .card {
+    border-radius: 20px;
+}
+
+.services .card .bi {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    padding-top: 20px;
+}
+
+.services .card .card-title {
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.services .card .card-text {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* portfolio */
+.portfolio {
+    font-family: 'Josefin Sans', sans-serif;
+    /* padding-top: 30px; */
+    padding-bottom: 5rem;
+    /* background-color: #eeeeee; */
+}
+
+.portfolio .title {
+    font-size: 50px;
+}
+
+.portfolio .desc {
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+
+.portfolio .card {
+    border-radius: 20px;
+}
+
+.portfolio .card .card-title {
+    font-size: 20px;
+}
+
+.portfolio .card .card-text {
+    font-size: 18px;
+}
+
+.portfolio .card-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.portfolio .card img {
+    border-radius: 20px 20px 0 0;
+}
+
+/* contact */
+.contact {
+    /* width: 100%; */
+    font-family: 'Josefin Sans', sans-serif;
+    /* padding-top: 30px; */
+    /* padding-bottom: 5rem; */
+    background-color: #eeeeee;
+}
+
+.contact .title {
+    font-size: 23px;
+}
+
+.contact .get-in-touch {
+    font-size: 48px;
+}
+
+.contact .get-in-desc {
+    font-size: 16px;
+}
+
+.contact .we-are {
+    font-size: 28px;
+}
+
+.contact .real-location {
+    font-size: 18px;
+    padding-top: 8px;
+    color: black;
+}
+
+.contact .circle-location {
+    border-radius: 100%;
+    height: 40px;
+    width: 40px;
+    background-color: #09203f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact .circle-location i {
+    font-size: 20px;
+    color: white;
+}
+
+.contact .text-location {
+    width: 80%;
+    margin-left: 20px;
+}
+
+/* catalog */
+.catalog .card-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+}
+/* end all size */
+
+/* large desktop */
+@media only screen and (min-width: 1200px) {
+    /* greeting text */
+    .display-image {
+        background-image: url(../assets/img/prof1.jpg);
+        width: 100%;
+        height: 110vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        overflow: hidden;
+        filter: brightness(40%);
+        margin-top: -10vh;
+    }
+
+    .greeting-text{
+        position: absolute;
+        z-index: 4;
+        color: white;
+        top:40%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .welcome{
+        width: 100%;
+        text-align: center;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 30px;
+        font-weight: lighter;
+        margin-bottom: -30px;
+    }
+
+    .branding{
+        /* width: 100%; */
+        text-align: center;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 150px;
+        background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -moz-text-fill-color: transparent;
+    }
+
+    /* slider */
+    .carousel {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .carousel img {
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .carousel-inner {
+        height: 400px;
+        width: 53%;
+    
+    }
+
+    /* about */
+    .about {
+        font-family: 'Josefin Sans', sans-serif;
+        /* padding-top: 30px; */
+        /* background-color: #eeeeee; */
+        padding-bottom: 5rem;
+    }
+
+    .about .title {
+        font-size: 50px;
+    }
+
+    .about .desc {
+        font-size: 27px;
+    }
+
+    /* parallax */
+    .parallax-header {
+        background: #000;
+        background: linear-gradient(
+            rgba(0,0,0,0.3),
+            rgba(0,0,0,0.8)
+        ),
+        url(../assets/img/alkes2.jpg);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .parallax-content {
+        padding: 30px 0 30px 0;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+
+    .parallax-content .title {
+        font-size: 50px;
+    }
+
+    .parallax-content .desc {
+        font-size: 30px;
+    }
+
+}
+
+/* phone */
+@media only screen and (max-width: 600px) {
+    /* greeting text */
+    .display-image {
+        background-image: url(../assets/img/prof1.jpg);
+        width: 100%;
+        height: 110vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        overflow: hidden;
+        filter: brightness(40%);
+        margin-top: -10vh;
+    }
+
+    .greeting-text{
+        position: absolute;
+        z-index: 4;
+        color: white;
+        top:40%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .welcome{
+        width: 100%;
+        text-align: center;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 18px;
+        font-weight: lighter;
+        margin-bottom: -10px;
+    }
+
+    .branding{
+        /* width: 100%; */
+        text-align: center;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 65px;
+        background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -moz-text-fill-color: transparent;
+    }
+
+    /* slider */
+    .carousel {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .carousel img {
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .carousel-inner {
+        /* height: 400px; */
+        width: 70%;
+    
+    }
+
+    /* about */
+    .about {
+        font-family: 'Josefin Sans', sans-serif;
+        /* padding-top: 30px; */
+        /* background-color: #eeeeee; */
+        padding-bottom: 5rem;
+    }
+
+    .about .title {
+        font-size: 30px;
+    }
+
+    .about .desc {
+        font-size: 20px;
+    }
+
+    /* parallax */
+    .parallax-header {
+        background: #000;
+        background: linear-gradient(
+            rgba(0,0,0,0.3),
+            rgba(0,0,0,0.8)
+        ),
+        url(../assets/img/alkes1.jpg);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .parallax-content {
+        padding: 30px 0 30px 0;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+
+    .parallax-content .title {
+        font-size: 30px;
+    }
+
+    .parallax-content .desc {
+        font-size: 20px;
+    }
+
+    .offcanvas {
+        width: 70%;
+    }
+
+}
